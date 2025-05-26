@@ -9,7 +9,7 @@ st.title("Cyber Threat Detection Dashboard")
 st.markdown("**Built using Databricks + Streamlit**")
 
 # Load dataset
-df = pd.read_csv(r"C:\Users\yashu\Desktop\ct_data\export.csv")
+df = pd.read_csv("Global_Cybersecurity_Threats_2015_2024.csv")
 
 
 
